@@ -143,7 +143,7 @@ const AppointmentSection = () => {
 
                                 <button
                                     type="submit"
-                                    className="bg-primary bg-secondary-hover text-white font-bold py-4 px-10 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl uppercase text-sm tracking-wide"
+                                    className="bg-primary bg-secondary-hover text-black font-bold py-4 px-10 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl uppercase text-sm tracking-wide"
                                 >
                                     Submit Message
                                 </button>
@@ -199,7 +199,7 @@ const AppointmentSection = () => {
                         </p>
                         <button
                             onClick={() => setShowPopup(false)}
-                            className="bg-primary text-white px-6 py-2 rounded-full font-semibold hover:opacity-90 transition"
+                            className="bg-primary text-black px-6 py-2 rounded-full font-semibold hover:opacity-90 transition"
                         >
                             Got it
                         </button>

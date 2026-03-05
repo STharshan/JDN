@@ -88,7 +88,7 @@ const Navbar = ({ logo = NavbarLogo.logo }) => {
               <ThemeToggle />
               <a
                 href="#contact"
-                className="bg-primary text-white px-6 py-3 text-sm font-bold tracking-widest rounded"
+                className="bg-primary text-black px-6 py-3 text-sm font-bold tracking-widest rounded"
               >
                 GET A QUOTE
               </a>

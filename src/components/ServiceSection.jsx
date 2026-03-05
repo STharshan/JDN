@@ -52,7 +52,7 @@ const PPFServices = ({ title = "OUR SERVICES", services = Services }) => {
 
                 <button
                   onClick={() => setShowPopup(true)}
-                  className="w-full bg-primary text-white font-semibold py-3 rounded-lg hover:scale-105 transition"
+                  className="w-full bg-primary text-black font-semibold py-3 rounded-lg hover:scale-105 transition"
                 >
                   BOOK TODAY
                 </button>
