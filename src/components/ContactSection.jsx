@@ -143,7 +143,7 @@ const AppointmentSection = () => {
 
                                 <button
                                     type="submit"
-                                    className="bg-primary bg-secondary-hover text-black font-bold py-4 px-10 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl uppercase text-sm tracking-wide"
+                                    className="bg-black bg-secondary-hover text-black font-bold py-4 px-10 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl uppercase text-sm tracking-wide"
                                 >
                                     Submit Message
                                 </button>
@@ -153,7 +153,7 @@ const AppointmentSection = () => {
                         {/* Right Side - Contact Info */}
                         <div className="space-y-8 lg:pl-8 text-[#111827] dark:text-white">
                             <div>
-                                <h3 className="text-3xl sm:text-4xl font-black text-primary mb-4">
+                                <h3 className="text-3xl sm:text-4xl font-black text-black mb-4">
                                     PHONE
                                 </h3>
                                 <div className="space-y-2">
@@ -164,7 +164,7 @@ const AppointmentSection = () => {
                             </div>
 
                             <div>
-                                <h3 className="text-3xl sm:text-4xl font-black text-primary mb-4">
+                                <h3 className="text-3xl sm:text-4xl font-black text-black mb-4">
                                     ADDRESS
                                 </h3>
                                 <p className="text-base sm:text-lg">
@@ -175,7 +175,7 @@ const AppointmentSection = () => {
                             </div>
 
                             <div>
-                                <h3 className="text-3xl sm:text-4xl font-black text-primary mb-4">
+                                <h3 className="text-3xl sm:text-4xl font-black text-black mb-4">
                                     {appointmentContent.hoursTitle}
                                 </h3>
                                 <div className="space-y-2">
